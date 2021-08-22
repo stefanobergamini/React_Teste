@@ -1,0 +1,39 @@
+.formDivider {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dataNascimento {
+    margin-top: 16px !important;
+    margin-bottom: 8px !important;
+}
+
+.select {
+    margin-top: 16px !important;
+    margin-bottom: 8px !important;
+}
+
+.buttonDiv2 {
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.botaoVoltar {
+    background-color: transparent !important;
+    border-color: transparent;
+    margin-top: 10px;
+    width: 50px;
+    height: 40px;
+    max-width: 250px;
+}
+.botaoVoltar:hover {
+    cursor: pointer;
+}
+
+.botaoFinalizar {
+    background-color: grey !important;
+    margin-top: 10px !important;
+    width: 200px;
+    height: 40px;
+    max-width: 250px;
+}

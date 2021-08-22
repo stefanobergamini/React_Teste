@@ -1,0 +1,30 @@
+.formDivider {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cpfInput {
+    width: 48% !important;
+}
+
+.rendaInput {
+    width: 48% !important;
+}
+
+.Texto-Inicial {
+    color: rgba(255, 166, 0, 0.87);
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.botaoTipo {
+    background-color: grey !important;
+    margin-top: 10px !important;
+    width: 200px;
+    height: 40px;
+    max-width: 250px;
+}
+

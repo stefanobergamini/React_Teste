@@ -42,6 +42,7 @@ const FormInputs2 = (props) => {
 
     return (
         <MainContainer>
+            <h2 className='Texto-Inicial'>Me fale mais sobre você.</h2>
             <form onSubmit={sendInfo}>
                 <Input
                     name="dataNascimento"

@@ -10,6 +10,7 @@ const FormInputs1 = (props) => {
     const { changePage, onChange, value } = props
     return (
         <MainContainer>
+            <h2 className='Texto-Inicial'>Vamos Começar</h2>
             <form onSubmit={() => changePage(1)}>
                 <Input
                     name='nomeCompleto'

@@ -6,8 +6,16 @@ import { Resultado } from './Pages/Resultado';
 
 const App = () => {
     const [ page, setPage ] = useState(1);
-    const [ form, setForm ] = useState({});
-
+    const [ form, setForm ] = useState({
+        nomeCompleto: "",
+        email: "",
+        cpfInput: "",
+        rendaInput: "",
+        dataNascimento: "",
+        celular: "",
+        profissao: ""
+    });
+    
     const handleUpdateForm = (event) => {
             const { name, value } = event.target;
             setForm((prevValue) => {
@@ -15,7 +23,7 @@ const App = () => {
             newValue[name] = value;
             return newValue
         })
-    }
+    }    
 
     return (
         <div>

@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
 export function SimpleSelect(props) {
   const classes = useStyles();
   
-  const { onChange, value, name } = props;
+  const { onChange, name } = props;
   return (
         <div>
             <FormControl className={classes.formControl}>
@@ -23,17 +23,18 @@ export function SimpleSelect(props) {
                 </InputLabel>
                 <Select
                   displayEmpty={true}
-                  className={classes.selectEmpty}
                   name={name}
-                  value={value}
                   onChange={onChange}
+                  {... props}
                 >
-                    <MenuItem value=""></MenuItem>
-                    <MenuItem value="profissão1">Profissão1</MenuItem>
-                    <MenuItem value="profissão2">Profissão2</MenuItem>
-                    <MenuItem value="profissão3">Profissão3</MenuItem>
+                  <MenuItem value="nenhuma">Nenhuma</MenuItem>
+                  <MenuItem value="profissão1">Profissão1</MenuItem>
+                  <MenuItem value="profissão2">Profissão2</MenuItem>
+                  <MenuItem value="profissão3">Profissão3</MenuItem>
                 </Select>
+                
             </FormControl>
+            
         </div>
     );
 }

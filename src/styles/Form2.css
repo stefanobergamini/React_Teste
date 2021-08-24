@@ -28,6 +28,7 @@
 }
 .botaoVoltar:hover {
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
 }
 
 .botaoFinalizar {
@@ -36,4 +37,11 @@
     width: 200px;
     height: 40px;
     max-width: 250px;
+}
+
+.profissaoError {
+    margin-top: 5px;
+    font-size: 12px;
+    font-family: roboto;
+    color: rgb(133, 133, 133);
 }

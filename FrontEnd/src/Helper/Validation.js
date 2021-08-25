@@ -4,7 +4,7 @@ export const validation = (name, value) => {
         case "nomeCompleto":
             if (value === '') {
                 return 'Nome Completo é obrigatório'
-            } else if (/[^a-zA-Z -]/.test(value)) {
+            } else if (!(/^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$/.test(value))) {
                 return 'Caracteres inválidos';
             } else if (value.trim().length < 3) {
                 return 'Nome completo deve ter mais que 3 caracteres';

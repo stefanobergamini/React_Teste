@@ -1,7 +1,7 @@
 # Teste de Desenvolvimento 
 
 Esse teste utilizou do comando 
-```yarn create react-app my-app``` e adicionada as dependencias necessárias. Utilize do comando ```yarn install``` para baixar as dependencias utilizadas no teste, as mesmas são listadas no arquivo ```package.json```
+```yarn create react-app my-app``` e adicionada as dependencias necessárias. Utilize do comando ```yarn install``` para baixar as dependencias utilizadas no teste, as mesmas são listadas no arquivo ```package.json```. Para inicializar o FrontEnd se utiliza do comando ```yarn start```.
 
 ## Parte da API
 

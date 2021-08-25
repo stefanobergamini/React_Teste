@@ -25,10 +25,10 @@
     width: 50px;
     height: 40px;
     max-width: 250px;
+    font-family: 'Roboto', sans-serif;
 }
 .botaoVoltar:hover {
     cursor: pointer;
-    font-family: 'Roboto', sans-serif;
 }
 
 .botaoFinalizar {

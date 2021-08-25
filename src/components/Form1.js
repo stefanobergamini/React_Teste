@@ -70,7 +70,7 @@ const FormInputs1 = (props) => {
             <form onSubmit={handleChangePage}>
                 <Input
                     name='nomeCompleto'
-                    type="text"
+                    type='text'
                     label='Nome Completo'
                     autoComplete='off'
                     value={value?.nomeCompleto}
@@ -81,7 +81,7 @@ const FormInputs1 = (props) => {
                 />
                 <Input
                     name='email'
-                    type="text"
+                    type='text'
                     label='Email'
                     value={value?.email}
                     helperText={errors?.email}
@@ -92,7 +92,7 @@ const FormInputs1 = (props) => {
                 <div className="formDivider">
                     <Input
                         className='cpfInput'
-                        type="text"
+                        type='text'
                         name='cpfInput' 
                         label='CPF'
                         value={value?.cpfInput}
@@ -103,7 +103,7 @@ const FormInputs1 = (props) => {
                     />
                     <Input
                         className='rendaInput'
-                        type="text"
+                        type='text'
                         name='rendaInput' 
                         label='Renda Principal'
                         value={value?.rendaInput}
